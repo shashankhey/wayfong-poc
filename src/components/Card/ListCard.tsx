@@ -1,36 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import AlertModal from "../AlertModal";
 import { AlertDialog, AlertDialogTrigger } from "../ui/alert-dialog";
 import { FormProp } from "@/types/form.type";
 import { Button } from "../ui/button";
 import { useNavigate } from "react-router-dom";
-
-const DUMMY_DATA = [
-  {
-    id: "#test123",
-    companyName: "test",
-    contactPerson: "test",
-    phone: "test",
-    zipCode: "560016",
-    city: "test city",
-  },
-  {
-    id: "#test456",
-    companyName: "test",
-    contactPerson: "test",
-    phone: "test",
-    zipCode: "560016",
-    city: "test city",
-  },
-  {
-    id: "#test789",
-    companyName: "test",
-    contactPerson: "test",
-    phone: "test",
-    zipCode: "560016",
-    city: "test city",
-  },
-];
 
 interface ListCardProps {
   storage: FormProp[];

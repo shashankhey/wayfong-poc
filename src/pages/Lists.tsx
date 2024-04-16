@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import ListCard from "../components/Card/ListCard";
 
 const Lists = () => {
