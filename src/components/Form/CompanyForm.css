@@ -1,0 +1,28 @@
+.formInput {
+    margin-top: 2em;
+  }
+  
+  .formInput-headline {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: fit-content;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .formInput-headline h1 {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.5em;
+    background-color: rgba(206, 116, 40, 1);
+  }
+  
+  .formInput-headline p {
+    padding: 1em;
+  }
+  
+  .formInput-headline a {
+    padding-left: 1em;
+  }
+  

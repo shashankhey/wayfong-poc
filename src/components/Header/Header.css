@@ -1,0 +1,11 @@
+.header {
+    background-color: rgba(128, 202, 123, 1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.header img {
+    height: 80px;
+}
